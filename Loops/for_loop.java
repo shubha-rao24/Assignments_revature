@@ -1,5 +1,5 @@
 package Loops;
-//generating even n odd numbers 1 tp 30
+//for loop exaple generating even n odd numbers 1 tp 30
 public class for_loop {
 
 	public static void main(String[] args)

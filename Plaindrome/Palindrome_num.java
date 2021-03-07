@@ -7,8 +7,8 @@ public class Palindrome_num {
 
 	public static void main(String[] args) 
 	{
-		int x=100,y,temp=0,rem,rev=0;
-		
+		int x,y,temp=0,rem=0,rev=0;
+		System.out.println("x isa palindeome");
 		for(x=100;x<=999;x++) 
 		{
 		   temp=x;
@@ -21,11 +21,11 @@ public class Palindrome_num {
 			
 			if(rev==x)
 			{
-				System.out.println("x isa palindeome");
+				System.out.println("x isa palindrome");
 			}
 			else
 			{
-				System.out.println("x is not  palindeome");
+				System.out.println("x is not  palindrome");
 			}
 			
 			}
