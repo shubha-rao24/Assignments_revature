@@ -10,7 +10,7 @@ public class ArrayInput_find_2ndMax_Value {
 		System.out.println("Enter the required size of the array :: ");
 		Scanner s = new Scanner(System.in);
 		int size = s.nextInt(), j;
-		;
+		
 
 		int arr1[] = new int[size];
 		System.out.println("Enter the elements of the array one by one ");
