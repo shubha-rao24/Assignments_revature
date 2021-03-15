@@ -9,18 +9,19 @@ public class Ass1_convert_last_chars_to_upper {
 	{
 		String s="string is immutable and strinbuffer and string bilber is not";
 		String ar[]=s.split("   ");
-		i
+		
 	    StringBuilder sb=new StringBuilder();
 		System.out.println(Arrays.toString(ar));
-		for( int i=0;i<ar.length.length;i++)
+		for( int i=0;i<ar.length;i++)
 {
 		String w=ar[i];
-                 String sub1=w.subdring(0,w.length()-1);
-                 String sub2=w.subsring(w.length()-1,w.length());
-                 Sting sub2_c=su2.toUppercase();
+                 String sub1=w.substring(0,w.length()-1);
+                 String sub2=w.substring(w.length()-1,w.length());
+                 String sub2_c=sub2.toUpperCase();
                 sb.append(sub1).append(sub2_c);
-                 system.out.println(sb);
+                 System.out.println(sb);
 
 	}
 
+}
 }
